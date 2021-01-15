@@ -1,4 +1,4 @@
-// swift-tools-version:4.2
+// swift-tools-version:5.1
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 /*
  * AwaitKit
@@ -30,6 +30,7 @@ import PackageDescription
 
 let package = Package(
   name: "AwaitKit",
+  platforms: [.iOS(.v12)],
   products: [
     .library(
       name: "AwaitKit",
